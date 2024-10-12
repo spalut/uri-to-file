@@ -1,4 +1,4 @@
-group 'in.lazymanstudios.uri_to_file'
+group 'dev.spalut.uri_to_file'
 version '1.0'
 
 buildscript {
@@ -23,6 +23,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 31
+
+    namespace 'dev.spalut.uri_to_file'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
